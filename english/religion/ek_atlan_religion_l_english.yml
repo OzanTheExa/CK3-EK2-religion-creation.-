@@ -1,0 +1,19 @@
+ atlan_religion:0 "Atlanism"
+  atlan_religion_adj:0 "Atlanite"
+
+  cult_of_atla:0 "Cult of Atla"
+  cult_of_atla_adj:0 "Atlian"
+  cult_of_atla_adherent:0 "Atlian"
+  cult_of_atla_adherent_plural:0 "Atlians"
+
+  # God names
+  atla_high_god_name:0 "God-Queen Tamar"
+  atla_high_god_name_possessive:0 "God-Queen's"
+
+  # Afterlife
+  atla_positive_afterlife:0 "Queen's Intimate Concubinarium"
+  atla_negative_afterlife:0 "The Halls of Spurnation "
+
+  # Symbol and texts
+  atla_religious_symbol:0 "crown"
+  atla_religious_text:0 "Queen's Whim"

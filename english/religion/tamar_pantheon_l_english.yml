@@ -1,0 +1,22 @@
+l_english:
+  doctrine_pantheon_tamar_name:0 "God-Queen Tamar"
+  doctrine_pantheon_tamar_desc:0 "This doctrine exalts Queen Tamar as a protective divine. Submitting to her unrivaled magical powers and strenght of will, worshippers believe her to be a far more agreeable and reachable God than the distant and passive Divines."
+  tamar_cult:0 "Ascendant Queen"
+  tamar_cult_adj:0 "Queen's Ascendancy"
+  tamar_cult_adherent:0 "Queen's Kul"
+  tamar_cult_adherent_plural:0 "Queen's Kuls"
+  tamar_cult_desc:0 "Born from a desire to be protected and cared by a more familiar figure, this faith exalts God-Queen Tamar as a protective divine. Submitting to her unrivaled magical powers and strenght of will, worshippers believe her to be a far more agreeable and reachable God than the distant and passive Divines."
+
+  # Deity tokens used by the faith/doctrine
+  god_tamar_name:0 "God-Queen Tamar"
+  god_tamar_name_possessive:0 "God Queen's"
+
+  # Optional generics to avoid UI blanks
+  tamar_cult_religious_symbol:0 "The Crown"
+  tamar_cult_religious_text:0 "God-Queen's Whims"
+  tamar_cult_religious_head_title:0 "God-Queen"
+  tamar_cult_religious_head_title_name:0 "Court Ascendant"
+  tamar_cult_house_of_worship:0 "Prostratorium"
+  tamar_cult_house_of_worship_plural:0 "Prostratoriums"
+  tamar_cult_devotee:0 "Queen's Kul"
+  tamar_cult_devotee_plural:0 "Queen's Kuls"
