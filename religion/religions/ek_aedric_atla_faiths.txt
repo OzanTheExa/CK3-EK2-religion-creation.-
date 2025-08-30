@@ -1,0 +1,41 @@
+tamar_religion = {
+    family = rf_aedric
+    religion_tag = tamar_religion
+    piety_icon_group = "pagan"  # matches Aedric sets; safe default
+
+    # (Optional) If your build enumerates selectable icons per religion, you can add:
+    # custom_faith_icons = { akatosh custom_1 custom_2 }  # reuse anything that already exists
+
+    # ---------- Faith: Cult of Queen Tamar ----------
+    tamar_cult = {
+        icon = akatosh              # placeholder, swap when you add a custom icon
+        color = hsv { 0.60 0.25 0.85 }   # gentle blue-gray; pick anything
+
+        # Core: Monolatry + our pantheon
+        doctrines = {
+            doctrine_main_pantheon_type_monolatrism
+            doctrine_pantheon_tamar
+            # Add baseline Aedric/cultural doctrine picks as needed later.
+        }
+
+        # Deity tokens (explicit, so you see correct strings even before we wire any pantheon injector)
+        HighGodName = god_tamar_name
+        HighGodNamePossessive = god_tamar_name_possessive
+        HighGodSheHe = CHARACTER_SHEHE_SHE
+        HighGodHerHis = CHARACTER_HERHIS_HER
+        HighGodHerHim = CHARACTER_HERHIM_HER
+	
+	holy_sites = {
+    	hs_lorianen
+   	hs_twyllbek
+    	hs_xi_tsei
+
+        # Optional: good/evil lists — we’ll keep them lean for now;
+        # you can enrich later with house spirits or saints-equivalents.
+        GoodGodNames = { god_tamar_name }
+        EvilGodNames = { }  # monolatry can leave this blank unless you want an explicit adversary
+	
+
+        # We’ll set head of faith, holy sites, flavor, etc. in the next phase.
+    }
+}
